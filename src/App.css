@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #f3f6ff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #4f8cff;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.card {
+  background: white;
+  width: 420px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.15);
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.clickable {
+  cursor: pointer;
+  color: royalblue;
+}
+
+.clickable:hover {
+  color: red;
+}
+
+.ban-section {
+  margin-top: 30px;
+}
+
+.ban {
+  background: tomato;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.history-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 8px;
+  border-radius: 10px;
+}
